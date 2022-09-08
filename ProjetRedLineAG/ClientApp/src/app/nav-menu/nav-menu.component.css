@@ -1,0 +1,50 @@
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+.titleNav {
+    margin-left: 14px;
+    FONT-WEIGHT: 500;
+    font-size: 1.25rem;
+    word-break: unset !important;
+    transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+}
+    .titleNav:hover {
+        text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+    }
+nav {
+    margin-top: 14px;
+}
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+.logoNav {
+    position: absolute;
+    left: 5px;
+    width:6%;
+}
+.linkNav {
+    transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+    cursor:pointer;
+}
+ .linkNav:hover {
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+ }
+
+@media screen and (max-width: 900px) {
+    .logoNav {
+        width: 9%;
+        margin-left: 12px;
+        position:unset;
+    }
+}

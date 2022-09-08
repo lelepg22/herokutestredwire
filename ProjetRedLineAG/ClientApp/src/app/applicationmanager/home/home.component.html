@@ -1,0 +1,83 @@
+﻿<main>
+    <app-search-bar (manipulatingLink)="accessWithId($event.link, $event.id)" [applications]="applications"></app-search-bar>
+
+    <div id="mainPage" class="col-12">
+
+        <app-applications *ngIf="link == 'applications'" (manipulatingLink)="accessWithId($event.link, $event.id)" [applications]="applications"></app-applications>
+
+        <app-entreprises-component (manipulatingLink)="access($event)" (manipulateWithId)="accessWithId($event.link, $event.id)" *ngIf="link == 'entreprise'"></app-entreprises-component>
+
+        <app-contacts-component (manipulatingLink)="access($event)" (manipulateWithId)="accessWithId($event.link, $event.id)" *ngIf="link == 'contacts'"> </app-contacts-component>
+        <app-statuts *ngIf="link == 'statuts'"></app-statuts>
+        <app-documents-component (manipulatingLink)="access($event)" *ngIf="link == 'documents'"> </app-documents-component>
+
+        <app-formApplication-component (manipulatingLink)="access($event)" *ngIf="link == 'formApp'"></app-formApplication-component>
+
+        <app-formEntreprise-component (manipulatingLink)="access($event)" *ngIf="link == 'formEntreprise'"></app-formEntreprise-component>
+
+        <app-formPerson-component (manipulatingLink)="access($event)" *ngIf="link == 'formPerson'"></app-formPerson-component>
+
+        <app-cardApplication-component (manipulatingLink)="accessWithId($event.link, $event.id)" [id]="id" *ngIf="link == 'cardApplication'"> </app-cardApplication-component>
+
+        <app-cardEntreprise-component (manipulatingLink)="accessWithId($event.link, $event.id)" [id]="id" *ngIf="link == 'cardEntreprise'"> </app-cardEntreprise-component>
+
+        <app-cardPerson-component (manipulatingLink)="access($event)" [id]="id" *ngIf="link == 'cardPerson'"> </app-cardPerson-component>
+
+        <aside class="col-xl-2">
+            <div id="lists">
+                <ul>
+                    <li class="nav-item" [routerLinkActive]="['link-active']" (click)="access('applications')">
+                        Candidatures
+                    </li>
+                    <li class="nav-item" [routerLinkActive]="['link-active']" (click)="access('entreprise')">
+                        Entreprises
+                    </li>
+                    <li class="nav-item" [routerLinkActive]="['link-active']" (click)="access('contacts')">
+                        Contacts
+                    </li>
+                    <li class="nav-item" [routerLinkActive]="['link-active']" (click)="access('documents')">
+                        Documents
+                    </li>
+                </ul>
+            </div>
+
+            <div id="jobs">
+                <h5 id="jobboards">
+                    Jobboards
+                </h5>
+                <ul>
+                    <li>
+                        <a href="https://fr.indeed.com/?r=us" target="_blank">Indeed</a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/jobs/" target="_blank">Linkedin</a>
+                    </li>
+                    <li>
+                        <a href="https://www.pole-emploi.fr/accueil/" target="_blank">Pole-emploi</a>
+                    </li>
+                    <li>
+                        <a href="https://www.welcometothejungle.com/fr" target="_blank">Welcome to the Jungle</a>
+                    </li>
+
+                </ul>
+            </div>
+        </aside>
+    </div>
+    <!-- <nav class="row">
+
+         <ul id="ulDown">
+             <li>
+                 À propos de moi
+             </li>
+             <li>
+                 Autres projets
+             </li>
+             <li>
+                 Contactez-moi
+             </li>
+
+         </ul>
+     </nav> -->
+
+
+</main>

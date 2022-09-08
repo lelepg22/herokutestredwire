@@ -1,0 +1,125 @@
+﻿        <div class='formCandidature cardShadow col-xl-9'>
+            <h2>Créer une nouvelle candidature</h2>
+            <div class="mainFormCandidature">
+                <form (ngSubmit)="onSubmit()" #applicationForm="ngForm">
+                    <div class="inputDiv"><i class="fas fa-font"></i> <input [(ngModel)]="application.TitleApplication" name="Title" class="inputGde" placeholder="Titre du poste ou candidature"></div>
+                    <div class="inputDiv"><i class="fas fa-link"></i><input [(ngModel)]="application.ExternalLinkApplication" name="ELink" class="inputGde" type="url" placeholder="Lien externe vers la candidature"></div>
+                    <div class="docEnvoyeFormCandidature">
+                        <div class="listAndAdd">
+                            <div class="docSelectFormCandidature">
+                                <div class="buttonFormList">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                            {{documentTitle}}
+                                        </button>
+                                        <ul *ngIf="formInfo" class="dropdown-menu">
+                                            <li *ngFor="let doc of formInfo[2]" (click)=setDocument(doc)>{{doc.titleDocument}}</li>
+
+                                        </ul>
+                                    </div>
+                                    <ul class="wrapper">
+                                        <li (click)="addDocToList()" class="icon addDoc">
+                                            <span class="tooltip">Ajouter</span>
+                                            <span><i class="fas fa-plus"></i></span>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                          
+                            <button type="button" (click)="addDoc()" role="button" class="button-13 nav-item" [routerLinkActive]="['link-active']">
+                                <i class="fas fa-folder-plus"></i>
+                            </button>
+
+                            <div *ngIf="add">
+                                <input name="docs" placeholder="Titre du document" [(ngModel)]="newDoc.titleDocument" />
+                                <ul class="wrapper">
+                                    <li *ngIf="add" class="icon addDoc arrowSent">
+                                        <span class="tooltip">Envoyer <i class="fas fa-file-edit"></i></span>
+                                        <span (click)="goDoc()" class="buttonArrow"><i class="fas fa-share"></i></span>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="entreprisesFormCandidature">
+                        <div class="listAndAdd">
+                            <div class="docSelectFormCandidature">
+                                <div class="buttonFormList">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                            {{entrepriseTitle}}
+                                        </button>
+                                        <ul *ngIf="formInfo" class="dropdown-menu">
+                                            <li *ngFor="let entreprise of formInfo[0]" (click)="setEntreprise(entreprise.entrepriseId, entreprise.titleEntreprise)">{{entreprise.titleEntreprise}}</li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <button (click)="navigate('formEntreprise')" role="button" class="button-13 nav-item" [routerLinkActive]="['link-active']">
+                                <i class="fas fa-plus"></i>
+                                <i class="fas fa-building"></i>
+
+                            </button>
+                        </div>
+                    </div>
+                    <div class="contactFormCandidature">
+
+                        <div class="listAndAdd">
+
+                            <div class="inputButton btn-group">
+                                <button type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+
+                                    {{inputPerson}}
+                                </button>
+
+                                <ul class="wrapper">
+                                    <li (click)="addContactToList()" class="icon addDoc">
+                                        <span class="tooltip">Ajouter</span>
+                                        <span><i class="fas fa-plus"></i></span>
+                                    </li>
+                                </ul>
+                                <ul *ngIf="formInfo" class="dropdown-menu">
+                                    <li *ngFor="let person of formInfo[1]" (click)="setPerson(person)">{{person.lastNamePerson}} {{person.firstNamePerson}} </li>
+                                </ul>
+                            </div>
+
+                            <button (click)="navigate('formPerson')" role="button" class="button-13 nav-item" [routerLinkActive]="['link-active']">
+                                <i class="fas fa-user-plus"></i>
+                            </button>
+
+                        </div>
+
+                        <div class="listAndAdd" *ngIf="personList.person.length > 0">
+                            <ul class="personAddResponsive wrapper">
+                                <li (click)="removeFromPersonList(added.id)" *ngFor="let added of personList.person" class="icon remove icon2 clean addDoc">
+                                    <span class="tooltip">Retirer</span>
+                                    <span>{{added.firstNamePerson}} {{ "  " }} {{added.lastNamePerson}} </span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="listAndAdd" *ngIf="documentsList.length > 0">
+                            <ul class="wrapper docAddedResponsiv">
+                                <li (click)="removeFromDocList(docs.documentId)" *ngFor="let docs of documentsList" class="icon icon2 remove clean addDoc">
+                                    <span class="tooltip">Retirer</span>
+                                    <span>{{docs.titleDocument}}</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    
+                    <div class="comment">
+                        <h3>Commentaires</h3>
+                        <textarea [(ngModel)]="application.CommentsApplication" name="comment"></textarea>
+                    </div>
+                    <div class="buttonsForm">
+                        <button (click)="onSubmit()" type="button" class="btn btn-success"><i class="fa-solid fa-circle-check"></i></button>
+                        <button (click)="navigate('applications')" type="button" class="btn btn-danger"><i class="fa-solid fa-ban"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+      

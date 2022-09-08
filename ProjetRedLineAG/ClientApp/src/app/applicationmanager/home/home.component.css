@@ -1,0 +1,2078 @@
+.cardPerson {
+    margin: 0 auto;
+    padding: 0;
+    
+}
+.documentBlock button {
+    height: 33px;
+    width: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+    border-radius: 20px;
+    color: #d82020;
+    background-color: white;
+    border: #d82020 2px solid;
+}
+
+.documentBlock div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.documentBlock div span:nth-child(1){
+    margin-left: 15px;
+    margin-right: -15px;
+}
+.contactBlockName {
+    display: flex;
+    width: 100%;
+}
+.block .contactBlockName span:nth-child(1) {
+    display: flex;
+    margin-left: 12px;
+    margin-right: -12px;
+}
+.contactBlock{
+    width: 27% !important;
+}
+.contactBlock span {
+    width:100%;
+}
+.contactBlock span i{
+        width: 24%;
+        text-align: center;
+    }
+
+.block .contactBlockName span:nth-child(2) {
+    width: 100%;
+    padding-left: 0px;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 600;
+    margin-right: 6%;    
+    text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+}
+.block {
+    display: flex;
+    min-height: 40px;
+    width: 22%;
+    margin: 10px auto;
+    margin-top: 20px;
+    box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px, rgb(10 37 64 / 35%) 0px -2px 6px 0px inset;
+    border-radius: 10px;
+    align-items: center;
+    flex-direction: column;
+    line-height: 2.5rem;
+    background: #FFEFBA; /* fallback for old browsers */
+
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA); /* Chrome 10-25, Safari 5.1-6 */
+
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.blockEntreprises{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+.headerCards{
+    text-align:center;
+   }
+.headerCards h2 {
+    font-size: 1.5rem;
+
+}
+.applicationBlock{
+    min-width:42% !important;
+}
+.applicationBlock span:nth-child(1) {
+    font-weight: 700;
+    color: #3b79ea;
+    text-shadow: 2px 8px 6px rgb(0 0 0 / 20%), 0px -5px 35px rgb(255 255 255 / 30%);
+}
+    .applicationBlock span:nth-child(2) i{
+        margin-right: -31%;
+        margin-left: 31%;
+        color: #ffd814;
+        font-size: 1.1rem;
+        text-shadow: -1px -1px 1px rgb(255 255 255 / 10%), 1px 1px 1px rgb(0 0 0 / 50%);
+    }
+
+    .applicationBlock span {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items:center;
+    }
+    .applicationBlock div span:nth-child(2) {
+        font-weight: 600;
+        font-style: italic;
+        font-size: 1.03rem;
+        text-decoration: underline;
+        text-align:center;
+    }
+    .applicationBlock span:nth-child(2) span {
+        border-radius:20px;
+    }
+        .applicationBlock span:nth-child(3) {
+        font-size: 0.9rem;
+        border-radius: 20px;
+        justify-content: center;
+        font-weight: 600;
+        text-shadow: -1px -1px 1px rgb(255 255 255 / 10%), 1px 1px 1px rgb(0 0 0 / 50%);
+    }
+        .applicationBlock span:nth-child(3) i{
+            margin-right: 20px;
+            margin-left: -20px;
+            color: #ffd814;
+            font-size: 1.1rem;
+            text-shadow: -1px -1px 1px rgb(255 255 255 / 10%), 1px 1px 1px rgb(0 0 0 / 50%)
+        }
+        
+        .entrepriseBlock span {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+    .entrepriseBlock span i {
+        margin-left: 10px;
+    }
+    .entrepriseBlock span span {
+        width: 100%;
+        margin-left: 17%;    
+    
+}
+    .entrepriseBlock div {
+        width: 100%;
+        display: flex;
+        line-height: 2.5rem;
+    }
+        .block div i { 
+        margin-top: 8px;
+        color: #ffd814;
+        margin-right: 10px;
+        font-size: 1.1rem;
+        text-shadow: -1px -1px 1px rgb(255 255 255 / 10%), 1px 1px 1px rgb(0 0 0 / 50%);
+}
+    
+.entrepriseBlock div:nth-child(1) span:nth-child(1) {
+    width: 20%;
+    margin-left:10px
+}
+    .entrepriseBlock div:nth-child(1) span:nth-child(2) {
+        width: 75%;
+        margin-left:16px;
+    }
+    .entrepriseBlock div:nth-child(2) span:nth-child(3) {
+        width: 45%
+    }
+    .entrepriseBlock div:nth-child(2) span:nth-child(4) {
+        width: 55%
+    }
+.docResponsive{
+    display:none;
+}
+button{
+    cursor:pointer !important;
+}
+a{
+    cursor:pointer !important;
+}
+.pointer {
+    cursor: pointer !important;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+    .pointer:hover {
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    
+       }
+.pointerTxt{
+    cursor:pointer !important;
+}
+.pointerTxt :hover {
+    background-color: #bde7075e;   
+    box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
+}
+.telEmailList i {
+    display: none;
+}
+
+.left {
+    left: 25px;
+}
+.telEmailPerson {
+    margin-top: 20px;
+    margin-bottom:15px;
+    text-align: center;    
+    display: block;
+    
+}
+    .telEmailPerson span {
+        
+        font-weight: 800;
+        font-size: 1.14rem;
+    }
+    .telEmailPerson span i {
+        font-size:1.6rem;
+    }
+
+
+
+    .right {
+        right: 25px;
+    }
+
+
+
+.center {
+    text-align: center;
+}
+
+
+
+.bottom {
+    position: absolute;
+    bottom: 25px;
+}
+
+
+
+#gradient {
+    background: #999955;
+    background-image: linear-gradient(#DAB046 20%, #D73B25 20%, #D73B25 40%, #C71B25 40%, #C71B25 60%, #961A39 60%, #961A39 80%, #601035 80%);
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 100%;
+    height: 150px;
+}
+
+
+
+    #gradient:after {
+        content: "";
+        position: absolute;
+        background: #E9E2D0;
+        left: 50%;
+        margin-top: -67.5px;
+        margin-left: -270px;
+        padding-left: 20px;
+        border-radius: 5px;
+        width: 520px;
+        height: 275px;
+        z-index: -1;
+    }
+
+
+
+#card {
+    position: absolute;
+    width: 450px;
+    min-height: 225px;
+    padding: 25px;
+    padding-top: 0;
+    padding-bottom: 15px;
+    left: 50%;    
+    margin-left: -250px;
+    background: #E9E2D0;
+    box-shadow: -20px 0 35px -25px black, 20px 0 35px -25px black;
+    z-index: 5;
+}
+
+
+    #card img {
+        width: 150px;
+        float: left;
+        border-radius: 5px;
+        margin-right: 20px;
+        -webkit-filter: sepia(1);
+        -moz-filter: sepia(1);
+        filter: sepia(1);
+    }
+
+
+
+    #card h2 {
+        font-family: courier;
+        color: #333;
+        margin: 0 auto;
+        padding: 0;
+        font-size: 15pt;
+    }
+
+
+
+    #card p {
+        font-family: courier;
+        color: #555;
+        font-size: 13px;
+    }
+
+
+
+    #card span {
+        font-family: courier;
+    }
+.panel-collapse {
+    position: absolute;
+}
+
+h1 {
+    margin-left: -7vw;
+}
+
+.collpase {
+    position: absolute
+}
+.searchResult{
+    position:absolute;
+    top:48%;
+    z-index:5;
+}
+
+#handler {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-left: -4vw;
+    flex-wrap: wrap;
+}
+
+    #handler * {
+        margin-left: 10px;
+    }
+
+    #handler input {
+        text-align: center;
+        font-family: 'typrewriter', sans-serif;
+        font-style: italic;
+    }
+    #handler button{
+        max-height: 50px;
+        
+    }
+
+#collapseListGroup1 {
+    position: absolute;
+}
+
+.navbar-brand {
+    font-weight: bolder;
+    position: absolute;
+    left: 10px;
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
+    font-family: 'typewriter', sans-serif;
+}
+
+#no {
+    display: none;
+}
+
+#mainPage nav {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    margin: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0;
+}
+
+nav ul li {
+    margin: 0;
+    line-height: 40px;
+}
+
+.table {
+    margin:auto;
+    width:97%;
+}
+
+#jobboards {
+    font-weight: bolder;
+}
+
+li {
+    list-style: none;
+}
+
+#mainPage {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    margin-top: 40px;
+    
+}
+
+aside {
+    display: flex !important;
+    flex-wrap:wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    margin-top: -13px;
+    border-radius: 5px;
+    border: 3px solid white;
+    min-height: 350px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+app-statuts {
+    width: 100%;
+}
+app-applications{
+    width:100%;
+}
+app-entreprises-component{
+    width:100%;
+}
+app-contacts-component{
+    width:100%;
+}
+app-documents-component{
+    width:100%;
+}
+app-formApplication-component{
+    width:100%;
+}
+app-formEntreprise-component{
+    width:100%;
+}
+app-formPerson-component{
+    width:100%;
+}
+app-cardApplication-component {
+    width: 100%;
+
+}
+
+app-cardEntreprise-component{
+    width:100%;
+}
+app-cardPerson-component{
+    width:100%;
+}
+.cardShadow {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.arrowSent {
+    border: 2px solid #ffc107;
+    background-color: #239b21 !important;
+}
+.buttonArrow {
+    text-align: center;
+    margin-left: -2px !important;
+    color: #ffc107;
+    text-shadow: 3px 5px 2px #474747;
+}
+.arrowDoc {
+    width: 40px;
+    border-radius: 22px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rowAddDoc{
+    display:flex;
+    
+}
+    .rowAddDoc button {
+        font-size: 1.4rem;
+        width: 55px;
+        height: 50px;
+        margin-right: 10px;
+        margin-bottom: 12px;
+        margin-left:15px;
+    }
+.contactFormContact{
+    display:flex;
+}
+.contactFormContact .inputContact{
+    margin-left: 15px;
+}
+.inputContact input {
+    margin: 10px !important;
+    text-align: center;
+    height: 40px;
+    border-radius: 17px;
+    width: 220px;
+}
+.telEmailForm{
+    justify-content:center;
+}
+    .telEmailForm div {
+        margin-right: 10px;
+        text-align: center;
+    }
+    .telEmailForm input {
+        text-align: center;
+        height: 40px;
+        border-radius: 17px;
+        width: 220px;
+    }
+.statutSelectFormCandidature div{
+    align-items:center;
+
+}
+.statutSelectFormCandidature button {
+    height:40px;
+}
+.statutInput {
+    display: flex;
+    margin-left: 10px !important;
+    align-items: center;
+}
+    .statutInput input {
+        margin: 10px !important;
+        text-align: center;
+        height: 40px;
+        border-radius: 17px;
+        width: 220px;
+    }
+
+.inputDoc {
+    display: flex;
+    margin-left: 9%;
+    height: 50px;
+    align-items:center;
+}
+    .inputDoc input {
+        text-align: center;
+        height: 40px;
+        border-radius: 17px;
+        margin-right:10px;
+    }
+.buttonStatutsList {
+    float: right;
+    margin-top: 15px;
+    margin-right: 12px;
+    display: flex;
+    align-items: center;
+}
+    .buttonStatutsList i {
+        font-size: 1.1rem;
+        margin-right: 10px;
+    }
+.buttonAddPerson {
+    margin-top: 15px;
+    margin-left:15px;
+    width: 55px;
+    height: 50px !important;
+    margin-bottom: 12px;
+    font-size: 1.16rem !important;
+}
+.mainFormCandidature .inputEntreprise {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.19rem;
+}
+    .mainFormCandidature .inputEntreprise input{
+        margin:unset;
+        margin-left:10px;
+        margin-top:10px;
+        margin-bottom: 10px;
+        font-size:1rem;
+    }
+
+    .cardShadow:hover {
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    }
+
+aside:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+table {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+table:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+#lists {
+    width: 100%;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 150px;
+}
+
+#lists li {
+        display: inline-flex;
+        outline: 0;
+        justify-content:center;
+        align-items: center;
+        cursor: pointer;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+        background: #FFD814;
+        border: 1px solid #FCD200;
+        font-size: 13px;
+        height: 31px;
+        padding: 0 11px;
+        text-align: center;
+        width: 100%;
+        min-width: 7vw;
+        margin-bottom: 15px;
+        font-weight: 500;
+        color: #0F1111;
+}
+
+
+#ulDown {
+    display: inline-flex;
+    justify-content: space-around;
+    border-radius: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 3px solid white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    width: 75.2%;
+    margin-left: 3.6vw;
+    margin-top: 10px;
+}
+
+    #ulDown:hover {
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    }
+
+    #ulDown li {
+        background-color: #e1ecf4;
+        border-radius: 3px;
+        border: 1px solid #7aa7c7;
+        box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+        box-sizing: border-box;
+        color: #39739d;
+        cursor: pointer;
+        display: inline-block;
+        font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 1.15385;
+        margin: 0;
+        outline: none;
+        padding: 8px .8em;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        vertical-align: baseline;
+        white-space: nowrap;
+    }
+
+        #ulDown li:hover,
+        .ulDown li:focus {
+            background-color: #b3d3ea;
+            color: #2c5777;
+        }
+
+        #ulDown li:focus {
+            box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+        }
+
+        #ulDown li:active {
+            background-color: #a0c7e4;
+            box-shadow: none;
+            color: #2c5777;
+        }
+
+
+#lists li:hover {
+    background: #F7CA00;
+    border-color: #F2C200;
+    box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+}
+
+#jobs {
+    border-top: 2px solid black;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    margin-bottom: 22px;
+}
+
+    #jobs ul {
+        margin-bottom: 10px;
+    }
+
+    #jobs li {
+        height: 30px;
+    }
+
+.navbar-brand img {
+    border: 1px solid black;
+    padding: 5px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px !important;
+    font-family: 'typewriter', sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.buttonCandidature {
+    position: absolute;
+    left: 10px;
+}
+
+.button-30 {
+    align-items: center;
+    appearance: none;
+    background-color: #FCFCFD;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #36395A;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono",monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+}
+
+    .button-30:focus {
+        box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    }
+
+    .button-30:hover {
+        box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+        transform: translateY(-2px);
+    }
+
+    .button-30:active {
+        box-shadow: #D6D6E7 0 3px 7px inset;
+        transform: translateY(2px);
+    }
+
+#commentaireEntreprise .mb-3 {
+    display: none;
+}
+.docEnvoye ul li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+    margin-top: 7px;
+}
+.docSent {
+    font-size: 1.6rem;
+    border-bottom: 2px solid;
+    display: block;
+    margin-bottom: 12px;
+}
+.docEnvoye ul li button {
+    border-radius: 20px;
+}
+    .docEnvoye ul li button:hover {
+        background-color: darkred;
+        color: white;
+    }
+.headerCandidature div {
+    position: absolute;
+    right: 50%;
+}
+.headerCandidature div input {
+    border-radius: 19px;
+    text-align: center;
+    font-weight: 500;
+}
+.titleLink {
+    min-width: 50%;
+    max-width: 83%;
+    border: 1px solid;
+    line-height: 47px;
+    margin: auto;
+    background: linear-gradient(to right bottom, #f9fafb, #f6f8f8, #f3f5f6, #f1f3f3, #eef0f0);
+    border-radius: 20px;
+}
+    .cardApplication {
+    border: 2px solid #f8f9fa;
+    margin:auto;
+    width:98%;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    padding: 20px;
+}
+
+    .cardApplication:hover{
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)
+    }
+        .cardApplication h4 input {
+            border-radius: 19px;
+            text-align: center;
+            font-weight: 400;
+            width: 64%;
+            font-size: 1.2rem;
+        }
+        .cardApplication .commentCandidature {
+            position: relative;
+            bottom: 33px;
+        }
+
+    .cardApplication h2 {
+        text-align: center;
+        margin-bottom: 17px;
+        font-family: 'typewriter', sans-serif;
+        margin-top: -47px;
+    }
+    .cardApplication h4 {
+    width: fit-content;
+    padding: 7px 15px;
+    padding-bottom: 9px;
+    border-radius: 23px;
+    margin-left: -15px;
+    margin-top: -18px;
+    margin-bottom: 25px;
+    color: #bd2314;
+    font-size: 1.4rem;
+    background: #FFFFFF;
+    text-shadow: 1px 0px 1px #cccccc, 0px 1px 1px #eeeeee, 2px 1px 1px #cccccc, 1px 2px 1px #eeeeee, 3px 2px 1px #cccccc, 2px 3px 1px #eeeeee, 4px 3px 1px #cccccc, 3px 4px 1px #eeeeee, 5px 4px 1px #cccccc, 4px 5px 1px #eeeeee, 6px 5px 1px #cccccc, 5px 6px 1px #eeeeee, 7px 6px 1px #cccccc;
+
+    }
+    .headerCandidature p {
+        font-weight:800;
+    }
+    .docEnvoye {
+        position:absolute;
+        z-index:2;
+    }
+.personEditCardApplication {
+    text-align:initial !important;
+    margin-left: 18px;
+    margin-bottom: 17px;
+}
+    .personEditCardApplication .button-13 {
+        float: right;
+    }
+    .commentCandidature {
+    text-align:center;
+    z-index:0;
+
+}
+.docAdded {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 60px;
+}
+.commentCandidature h6{
+    font-size:1.3rem;
+}
+        .commentCandidature textarea {
+            margin-top: 16px;
+            min-width: 50%;
+            padding: 7px;
+            border-radius: 17px;
+            text-align:center;
+        }
+
+.commentaire {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 19px;
+    margin: auto;
+    border-radius: 14px;
+    box-shadow: inset 0 0 10px;
+    max-width: 52%;
+    min-width: 52%;
+    line-break: anywhere;
+    text-align:center;
+}
+.footerCandidature {
+    display: flex;
+    flex-direction: column;
+}
+    .footerCandidature h5 {
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: fit-content;
+        margin: auto;
+        border-radius: 15px;
+        padding: 10px 15px;
+        margin-bottom: 20px;
+        background-image: linear-gradient(to right bottom, #f9fafb, #f6f8f8, #f3f5f6, #f1f3f3, #eef0f0);
+    }
+   .footerCandidature button {
+        width: 100px;
+        margin: auto;
+    }
+.buttonsFooter {
+    display: flex;
+    position: relative;
+    top: 12px;
+}
+.buttonsFooter div{
+    margin: auto;
+
+}
+.footerCandidature h5 span{
+    margin-left: 6px;   
+    border-radius: 9px;
+    padding: 1px 27px;
+    padding-bottom: 5px;
+    text-shadow: -1px -1px 1px rgb(255 255 255 / 10%), 1px 1px 1px rgb(0 0 0 / 50%);
+    
+}
+
+
+.cardEntreprise {
+    border: 2px solid #f8f9fa;
+    margin-right: 22px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    margin: auto;
+    width: 92%;
+    padding: 20px;
+}
+
+    .cardEntreprise:hover {
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)
+
+    }
+
+    .cardEntreprise h2 {
+        text-align: center;
+        margin-bottom: 17px;
+        font-family: 'typewriter', sans-serif;
+    }
+        .cardEntreprise h2 i {
+            float:left;
+        }
+
+        .cardEntreprise h3 {
+            text-align: center;
+            font-size: 1.32rem;
+            border: 2px solid;
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 18px;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            border-radius: 15px;
+            font-weight: 300;
+            font-family: "JetBrains Mono",monospace;
+        }
+
+    .cardEntreprise button {
+        display: block;
+        margin: auto;
+        width: 117px;
+        font-family: "JetBrains Mono",monospace;
+    }
+
+.comment p {
+    border: 1px solid;
+    display: block;
+    width: 95%;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#contactEntreprise {
+    text-align: center;
+}
+
+    #contactEntreprise ul li {
+        border: 1px solid;
+        width: 40%;
+        text-align: center;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 18px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        border-radius: 15px;
+        font-weight: 400;
+        height: 35px;
+    }
+        #contactEntreprise ul li strong {
+            float: right;
+            margin-right: 10px;            
+            padding-left:10px;
+        }
+        #contactEntreprise ul li button {
+            width: 35px;
+            height: 35px;
+            border-radius: 20px;
+            transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        }
+        #contactEntreprise ul li button:hover {
+            background-color:darkred;
+            color:white;
+        }
+            #contactEntreprise ul li a {
+            display: block;
+            width: 100%;
+        }
+        .removePerson {
+            position: absolute;
+            margin-top: -4px;
+            right: 24%;
+        }
+
+#listCandidatures {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+    #listCandidatures a {
+        line-height: 40px;
+        text-align: center;
+        border: 1px solid;
+        margin: 10px;       
+        margin-top: 10px;
+        margin-bottom: 18px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        border-radius: 15px;
+        font-weight: 300;
+    }
+#card h2 {
+    margin-top: 15px;
+    font-weight: 600;
+    text-align: center;
+    font-size: 1.5rem;
+}
+#card span{
+    display:flex;
+}
+#card p {
+    text-align: center;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+}
+#card strong {
+    margin-right: 21px;
+}
+#card i {
+    margin-right:10px;
+}
+.editPerson {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+    .editPerson span {
+        margin-top: 12px;
+        align-items: center;
+    }
+.buttonsCardPerson {
+    display: flex;
+    justify-content: space-between;
+}
+    .buttonsCardPerson button {
+        border-radius: 10px;
+        padding: 3px 15px;
+        text-align: center;
+       
+    }
+        .buttonsCardPerson button i {
+            margin: unset !important;
+        }
+.cardPerson {
+    font-family: Montserrat, sans-serif;
+    display: flex;
+    align-items: center;    
+    flex-direction: column;    
+    margin: 0;
+}
+
+    .cardPerson h3 {
+        margin: 10px 0;
+    }
+
+    .cardPerson h6 {
+        margin: 5px 0;
+        text-transform: uppercase;
+    }
+
+    .cardPerson .comment {
+        margin-top: 22px;
+        margin-bottom: 10px;
+    }
+
+    .cardPerson p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+.skills button {
+    position: absolute;
+    right: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.cardPerson .card-container {
+    background-color: #231E39;
+    border-radius: 5px;
+    box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
+    color: #B3B8CD;
+    padding-top: 30px;
+    position: relative;
+    width: 350px;
+    max-width: 100%;
+    text-align: center;
+}
+
+    .cardPerson .card-container .pro {
+        color: #231E39;
+        background-color: #FEBB0B;
+        border-radius: 3px;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 3px 7px;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+
+    .cardPerson .card-container .round {
+        border: 1px solid #03BFCB;
+        border-radius: 50%;
+        padding: 7px;
+    }
+
+.cardPerson button.primary {
+    background-color: #03BFCB;
+    border: 1px solid #03BFCB;
+    border-radius: 3px;
+    color: #231E39;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    padding: 10px 25px;
+}
+
+    .cardPerson button.primary.ghost {
+        background-color: transparent;
+        color: #02899C;
+    }
+
+.cardPerson .skills {
+    background-color: #1F1A36;
+    text-align: left;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+    .cardPerson .skills ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+        .cardPerson .skills ul li {
+            border: 1px solid #2D2747;
+            border-radius: 2px;
+            display: inline-block;
+            font-size: 12px;
+            margin: 0 7px 7px 0;
+            padding: 7px;
+            cursor: pointer;
+        }
+
+.cardCandidature {
+    border: 1px solid;
+    margin-right: 17px;
+    padding: 13px;
+    padding-bottom: 32px;
+    padding-top: 32px;
+}
+
+    .cardCandidature .headerCandidature p {
+        position: absolute;
+        top: 16px;
+        right: 21px;
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+
+    .cardCandidature .headerCandidature h2 {
+        border: 1PX SOLID;
+        display: block;
+        width: 82%;
+        margin: auto;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        text-align: center;
+    }
+
+    .cardCandidature .mainCandidature {
+        border: 1px solid;
+        padding: 17px;
+    }
+
+    .cardCandidature h4 {
+        text-align: center;
+        display: block;
+        margin: auto;
+        margin-top: 21px;
+        width: 70%;
+        border: 1px solid;
+        border-bottom: 0;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .cardCandidature .docEnvoye {
+        border: 1px solid;
+        padding: 12px;
+    }
+
+        .cardCandidature .docEnvoye ul {
+            display: flex;
+            flex-direction: row;
+            margin: auto;
+            font-weight: bolder;
+            margin-left: 7px;
+        }
+
+            .cardCandidature .docEnvoye ul li {
+                margin-left: 20px;
+                font-weight: 500;
+
+            }
+
+    .cardCandidature .commentCandidature h6 {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .cardCandidature .commentCandidature p {
+        display: block;
+        border: 1px solid;
+        width: 100%;
+        padding: 25px;
+        margin: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .cardCandidature .footerCandidature h5 {
+        margin-left: 16px;
+    }
+
+    .cardCandidature .footerCandidature button {
+        position: absolute;
+        right: 35px;
+        bottom: 45px;
+        padding-right: 35px;
+        padding-left: 35px;
+    }
+/* formApplication */
+.formCandidature {
+    border: 1px solid;
+    border-radius:5px;
+    margin:auto;
+    padding: 20px;
+    width:92%;
+}
+
+.telEmailForm {
+    display: flex;
+    align-items: center;
+    margin-bottom: 17px;
+    margin-left: 2px;
+}
+    .telEmailForm div i{
+        margin-bottom:9px;
+       
+    }
+
+    .telEmailForm input {
+        padding-left: 10px;
+    }
+
+    .telEmailForm i {
+        margin-right: 10px;
+        font-size: 1.2rem;
+        margin-left: 15px;
+        border: 2px solid;
+        padding: 8px 8px;
+        border-radius: 20px;
+        color: #146aeb;
+        text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+    }
+
+.formCandidature h2 {
+    text-align: center;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.formCandidature .listAndAdd {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height:50px;
+}
+
+    .formCandidature .listAndAdd * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+.formCandidature .contactFormContact .listAndAdd {
+    justify-content: center;
+    margin-top: 23px;
+}
+
+    .formCandidature .contactFormContact .listAndAdd .inputButton {
+        width: 74%;
+        margin-left: 10px;
+    }
+
+        .formCandidature .contactFormContact .listAndAdd .inputButton button {
+            padding: 10px 15px;
+        }
+
+            .formCandidature .contactFormContact .listAndAdd .inputButton button input {
+                width: 99%;
+                padding: 3px 5px;
+            }
+
+.listAndAdd *:focus,
+ .listAndAdd *:active {
+    outline: none !important;
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+
+.listAndAdd .wrapper {
+    display: inline-flex;
+    list-style: none;
+}
+
+    .listAndAdd .wrapper .icon {
+        position: relative;
+        background: #ffffff;
+        border-radius: 50%;
+        padding: 15px;
+        margin: 10px;
+        width: 35px;
+        height: 35px;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+
+     .listAndAdd .wrapper .tooltip {
+        position: absolute;
+        top: 0;
+        font-size: 14px;
+        background: #ffffff;
+        color: #ffffff;
+        padding: 5px 8px;
+        border-radius: 5px;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+        opacity: 0;
+        pointer-events: none;
+        transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+
+    .icon2 {
+        width: 180px !important;    
+        height: 62px !important;
+        font-weight: bolder;
+        font-size: 0.8rem !important;
+    }
+    .clean:nth-child(1){
+        display:none !important;
+    }
+    .icon2 .tooltip{
+        background-color: red !important;
+    }
+    
+    
+     .listAndAdd .wrapper .tooltip::before {
+        position: absolute;
+        content: "";
+        height: 8px;
+        width: 8px;
+        background: #ffffff;
+        bottom: -3px;
+        left: 50%;
+        transform: translate(-50%) rotate(45deg);
+        transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+
+     .listAndAdd .wrapper .icon:hover .tooltip {
+        top: -45px;
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+    }
+
+     .listAndAdd .wrapper .icon:hover span,
+     .listAndAdd .wrapper .icon:hover .tooltip {
+        text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+    }
+
+     .listAndAdd .wrapper .addDoc:hover,
+     .listAndAdd .wrapper .addDoc:hover .tooltip,
+     .listAndAdd .wrapper .addDoc:hover .tooltip::before {
+        background: #1877F2;
+        color: #ffffff;
+    }
+
+ .listAndAdd button {
+    padding: 5px 15px;
+}
+
+.formCandidature .button-13 {
+    min-width: 197px;
+}
+.checkBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.checkBox input{
+    margin-right:10px;
+}
+
+.button-13 {
+    background-color: #fff;
+    border: 1px solid #d5d9d9;
+    border-radius: 8px;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    box-sizing: border-box;
+    color: #0f1111;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Amazon Ember",sans-serif;
+    font-size: 13px;
+    line-height: 29px;
+    padding: 0 10px 0 11px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    height: 40px;
+}
+
+    .button-13:hover {
+        background-color: #f7fafa;
+    }
+
+    .button-13:focus {
+        border-color: #008296;
+        box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+        outline: 0;
+    }
+
+.contactFormCandidature {
+    align-items: center;
+}   
+
+    .contactFormCandidature .inputButton {
+        display: flex;
+        width: 41%;
+    }
+
+        .contactFormCandidature .inputButton button {
+            display: flex;
+            align-items: center;
+        }
+
+            .contactFormCandidature .inputButton button input {
+                display: block;
+                width: 98%;
+            }
+.inputButton button{
+    flex: unset;
+    min-width: 130px;
+    justify-content: space-evenly;
+}
+
+.mainFormCandidature .comment h3 {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+
+.mainFormCandidature textarea {
+    overflow: auto;
+    resize: vertical;
+    display: block;
+    width: 90%;
+    margin: auto;
+    min-height: 200px;
+    margin-bottom: 20px;
+}
+
+.mainFormCandidature .inputGde {
+    display: block;
+    width: 78%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 18px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 15px;
+    font-weight: 300;
+}
+.inputDiv{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.inputDiv input {
+   margin-left:10px;
+}
+.remove:hover{
+    background-image:url(../../../assets/img/remove.jpg) !important;
+    background-size:contain !important;
+}
+.inputDiv i{
+    min-width:25px;
+    font-weight:bold;
+    font-size: 1.25rem;
+}
+
+.buttonsForm {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+
+    .buttonsForm button {
+        min-width: 100px;
+    }
+
+.buttonFormList button {
+    min-width: 130px;
+}
+/*Fin Form Application */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/* cardLogin css*/
+.cardLogin * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.cardLogin .wrapper {
+    max-width: 350px;
+    min-height: 400px;
+    margin: 80px auto;
+    padding: 40px 30px 30px 30px;
+    background-color: #ecf0f3;
+    border-radius: 15px;
+    box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
+}
+
+.cardLogin .logo {
+    width: 80px;
+    margin: auto;
+}
+
+.cardLogin .logo img {
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0px 0px 3px #5f5f5f, 0px 0px 0px 5px #ecf0f3, 8px 8px 15px #a7aaa7, -8px -8px 15px #fff;
+}
+
+.cardLogin .wrapper .name {
+    font-weight: 600;
+    font-size: 1.4rem;
+    letter-spacing: 1.3px;
+    padding-left: 10px;
+    color: #555;
+}
+.newComment {
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+.cardLogin .wrapper .form-field input {
+    width: 100%;
+    display: block;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.2rem;
+    color: #666;
+    padding: 10px 15px 10px 10px;
+    /* border: 1px solid red; */
+}
+
+.cardLogin.wrapper .form-field {
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff;
+}
+
+    .cardLogin .wrapper .form-field .fas {
+        color: #555;
+        margin-right: 15px;
+    }
+
+.cardLogin .wrapper .btn {
+    box-shadow: none;
+    width: 100%;
+    height: 40px;
+    background-color: #03A9F4;
+    color: #fff;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px #b1b1b1, -3px -3px 3px #fff;
+    letter-spacing: 1.3px;
+}
+
+    .cardLogin .wrapper .btn:hover {
+        background-color: #039BE5;
+    }
+
+.cardLogin .wrapper a {
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: #03A9F4;
+}
+
+    .cardLogin .wrapper a:hover {
+        color: #039BE5;
+    }
+    /*Fin cardLogin*/
+    /* cardProfile */
+.cardProfile .wrapper {
+    min-height: 200px !important;
+}
+
+.cardProfile .text-center {
+    margin-top: 20px;
+    border: 1px solid #d6dadd;
+    padding: 10px 0px;
+    border-radius: 11px;
+}
+
+.cardProfile .logo {
+    margin-bottom: 20px;
+}
+
+.cardProfile .text-center a {
+    font-size: 1.1rem !important;
+}
+
+.cardProfile .form-field {
+    margin-top: 10px;
+}
+/*fin cardProfile*/
+
+@media(max-width: 380px) {
+    .wrapper {
+        /* margin: 30px 20px;
+        padding: 40px 15px 15px 15px; */
+    }
+}
+
+@media screen and (max-width: 1139px) {
+    aside {
+        display: flex !important;
+        flex-direction: row;
+        min-height: unset;
+        padding: 0;
+        padding-bottom:10px;
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-top: 6px;
+        border-radius: 35px;        
+        flex-wrap:wrap
+    }
+
+    .table {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    #table {
+        overflow-x: auto;
+    }
+
+    aside ul {
+        display: flex;
+    }
+
+        aside ul li {
+            margin: 20px;
+        }
+
+    #lists {
+        justify-content: center;
+        min-height: unset;
+        width: unset;
+    }
+
+    #jobs {
+        border: 0;
+        width: unset;
+        padding-top: 0;
+        margin-top: 16px;
+        padding-bottom:20px;
+    }
+    .statutSelectFormCandidature div{
+        flex-wrap:wrap;
+    }
+    .contactFormContact div{
+        flex-wrap:wrap;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+    #mainPage {
+        flex-wrap: wrap;
+    }
+    #mainPage nav {
+        justify-content: center;
+        width: 70%;
+    }
+
+    #jobs h5 {
+        height: 10px;
+    }
+
+    #jobs ul {
+        height: 10px;
+        line-height: 10px;
+        margin: 0;
+    }
+
+    #jobs li {
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+        height: fit-content;
+        margin-right: 0;
+        margin-left: 16px;
+        line-height: 16px;
+    }
+
+    
+
+    #lists {
+        padding-top: 0;
+    }
+
+        #lists li {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-width: 10vw;
+            margin-bottom: auto;
+        }
+}
+
+@media screen and (max-width: 900px) {
+    .table {
+        margin-top: 41px;
+    }
+
+    .buttonCandidature {      
+        right: 1%;
+    }
+
+    .buttonRechercher {
+        margin-left: 25px !important;
+      
+    }
+
+    .container {
+        justify-content: flex-end !important;
+    }
+
+    #handler * {
+        margin-left: unset;
+    }
+
+    aside {
+        height: auto;
+        flex-direction: column;
+    }
+
+    #jobs ul {
+        height: unset;
+    }
+
+    #jobs h5 {
+        margin-bottom: 25px;
+    }
+
+    #jobs li {
+        line-height: 6px;
+    }
+    
+    #lists {
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+
+        #lists li {
+            
+        }
+
+        #lists ul {
+            flex-direction: row;
+        }
+
+    aside ul {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #ulDown {
+        width: 93%;
+        margin-left: unset;
+    }
+    .blockEntreprises {
+        flex-direction:column;
+    }
+    .block{
+        width:87%;
+    }
+
+    #mainPage nav {
+        width: 100%;
+    }
+    .rowAddDoc {
+        margin-top: 15px;
+        margin-bottom: -20px;
+    }
+
+    .cardEntreprise {
+        margin: auto;
+        margin-top: 53px;
+    }
+        .cardEntreprise button {
+            width: 14vh;
+        }
+    #contactEntreprise li {
+        display: flex;
+        justify-content: center;
+        height:unset !important;
+    }
+
+    .titlesCardEntreprise {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 18px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        border-radius: 15px;
+        font-weight: 300;
+    }
+
+    #contactEntreprise ul li {
+        width: 90%;
+
+    }
+    .buttonCandidature{
+        margin-top:-10px;
+    }
+        .buttonCandidature i {
+            margin-left:10px !important;
+        }
+        .topResponsive {
+        position: relative;
+        top: 50px;
+        }
+        .formCandidature .button-13{
+            min-width: 50px;
+        }
+        .mainFormCandidature textarea{
+            min-height:unset;
+        }
+       .icon2{
+           width: unset !important;
+               height: unset !important;
+       }
+    .docResponsive {
+        display: flex;
+        margin-top: 15px;        
+        border-radius: 10px;
+        height: 25px;
+    }
+    .docAddedResponsive {
+        position: relative;
+        top: 173px;
+        width: 10px;
+        right: 230px;
+    }
+ 
+    app-applications{
+        width:unset !important;
+    }
+    app-entreprises-component {
+        
+        word-break: break-all;
+    } 
+        app-contacts-component{
+        word-break: break-word;
+    }
+    .personAddResponsive {
+        margin-top: 50px;
+        margin-bottom: -50px;
+    }
+    .formCandidature{
+        margin-right:unset;
+        width:unset;
+        padding:12px;
+    }
+    .removePerson{
+        right:8%;
+    }
+    #card{
+        position:unset;
+        width: 100%;
+        margin-left: unset;
+    }
+        #card p {
+            display: flex;
+            justify-content: center;
+        }
+        .telEmailForm{
+            flex-wrap:wrap;
+        }
+        .telEmailForm div {
+            display:flex;
+            align-items:baseline;
+        }
+    .telEmailForm input {
+        width:100%;
+    }
+    .telEmailPerson {
+        flex-wrap: wrap;
+        justify-content:unset;
+    }
+    .cardApplication h4{
+        margin:auto;
+        text-align:center;
+    }
+    .cardApplication .commentCandidature{
+        position:unset;
+    }
+    .docEnvoye {
+        position:unset;
+    }
+    .headerCandidature div{
+        position:unset;
+        text-align:center;
+    }
+    .headerCandidature p {
+        display:none;
+    }
+    .headerCandidature h2 {
+        margin-top:unset;
+    }
+    .entrepriseTable {
+        font-size: 0.74rem;
+    }
+    .telEmailList span{
+        display:none;
+    }
+    .telEmailList i{        
+             display:block;
+         }
+    .headerCards button {
+        margin-top: 19px;
+    }
+    #handler{
+        margin-left:unset;
+    }
+    #handler button{
+        margin-top:unset;
+    }
+    .block {
+        padding: 12px;       
+       
+    }
+        .entrepriseBlock span {
+            margin-left:unset;
+            justify-content:center;
+        }
+        .entrepriseBlock span span{
+            margin-left:unset;
+        }
+        .entrepriseBlock div:nth-child(1) span:nth-child(1) {
+        width: unset;
+        margin-left: unset;
+    }
+
+    .entrepriseBlock div:nth-child(1) span:nth-child(2) {
+        width: unset;
+        margin-left: unset;
+    }
+    .contactBlock
+    {
+        width:82% !important;
+    }
+    .applicationBlock span:nth-child(2) i {
+        margin-right: -15%;
+        margin-left: 14%;
+    }
+    }
+

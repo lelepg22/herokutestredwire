@@ -1,0 +1,23 @@
+﻿        <div class='formCandidature cardShadow col-xl-9'>
+            <h2>Créer une nouvelle entreprise</h2>
+            <div class="mainFormCandidature">
+                <form (ngSubmit)="onSubmit()" #entrepriseForm="ngForm">
+                    <div class="inputEntreprise"><i class="fa-solid fa-industry"></i> <input [(ngModel)]="entreprise.TitleEntreprise" class="inputGde" name="entrepriseTitle" type="url" placeholder="Nom Entreprise"></div>
+                    <div class="inputEntreprise"><i class="fas fa-link"></i><input [(ngModel)]="entreprise.LinkEntreprise" class="inputGde" name="entrepriseSite" placeholder="Site Web Entreprise"></div>
+                                     
+                    <div class="comment">
+                        <h3>Commentaires</h3>
+                        <textarea [(ngModel)]="entreprise.CommentsEntreprise" name="comment"></textarea>
+                    </div>
+                    <div class="telEmailForm">
+                        <i class="cardShadow fas fa-envelope"></i><input [(ngModel)]="entreprise.EmailEntreprise" name="telEntreprise" type="email" placeholder="email">
+                        <i class="cardShadow fas fa-phone"></i><input [(ngModel)]="entreprise.TelEntreprise" name="emailEntreprise" type="tel" placeholder="tel">
+                    </div>
+                    <div class="buttonsForm">
+                        <button (click)="onSubmit()" type="button" class="btn btn-success"><i class="fa-solid fa-circle-check"></i></button>
+                        <button (click)="navigate('applications')" type="button" class="btn btn-danger"><i class="fa-solid fa-ban"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+       

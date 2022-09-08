@@ -1,0 +1,89 @@
+﻿        
+<div class='formCandidature cardShadow col-xl-9'>
+            <h2>Créer un nouveau contact</h2>
+            <div class="mainFormCandidature">
+                <form (ngSubmit)="onSubmit()" #personForm="ngForm">
+                    <div class="contactFormContact">
+
+                        <div class="listAndAdd">
+                            <div class="buttonFormList">
+                                <div class="statutSelectFormCandidature">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                            {{statutTitle}}
+                                        </button>
+                                        <ul *ngIf="formInfo" class="dropdown-menu">
+                                            <li *ngFor="let statuts of formInfo[3]" (click)="setStatut(statuts)">{{statuts.titleStatut}}</li>
+
+                                        </ul>
+
+                                        <div *ngIf="addNewStatut">
+                                            <div class="statutInput">
+                                                <input name="statutNew" [(ngModel)]="statut.titleStatut" placeholder="Statut" />
+                                                <span class="tooltip">Nouveau type</span>
+
+
+                                                <ul class="wrapper">
+                                                    <li *ngIf="addNewStatut" class="icon addDoc pointer arrowSent">
+                                                        <span class="tooltip">Envoyer Statut</span>
+                                                        <span (click)="goStatutNew()" class="buttonArrow"><i class="fas fa-share"></i></span>
+                                                    </li>
+                                                </ul>
+
+                                                
+                                            </div>
+                          
+
+                                        </div>
+                                    </div>
+                                    <ul class="wrapper">
+                                        <li *ngIf="!addNewStatut" class="icon addDoc">
+                                            <span class="tooltip">Nouveau type</span>
+                                            <span (click)="addStatut()"><i class="fas fa-plus"></i></span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="inputContact">
+                                <input [(ngModel)]="person.LastNamePerson" name="lastName" placeholder="Nom">
+                                <input [(ngModel)]="person.FirstNamePerson" name="firstName" placeholder="Prenom">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="entreprisesFormCandidature">
+                        <div class="listAndAdd">
+                            <div class="docSelectFormCandidature">
+                                <div class="buttonFormList">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                            {{entrepriseTitle}}
+                                        </button>
+                                        <ul *ngIf="formInfo" class="dropdown-menu">
+                                            <li *ngFor="let entreprise of formInfo[0]" (click)="setEntreprise(entreprise.entrepriseId, entreprise.titleEntreprise)">{{entreprise.titleEntreprise}}</li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <button (click)="navigate('formEntreprise')" role="button" class="button-13 nav-item" [routerLinkActive]="['link-active']">
+                                <i class="fas fa-plus"></i>
+                                <i class="fas fa-building"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <h3>Commentaires</h3>
+                        <textarea [(ngModel)]="person.CommentsPerson" name="comment"></textarea>
+                    </div>
+                    <div class="telEmailForm">
+                        <i class="cardShadow fas fa-envelope"></i><input [(ngModel)]="person.EmailPerson" name="emailPerson"  placeholder="email">
+                        <i class="cardShadow fas fa-phone"></i><input [(ngModel)]="person.TelPerson" name="telName" placeholder="tel">
+                    </div>
+                    <div class="buttonsForm">
+                        <button type="button" (click)="onSubmit()" class="btn btn-success"><i class="fa-solid fa-circle-check"></i></button>
+                        <button type="button" (click)="navigate('applications')" class="btn btn-danger"><i class="fa-solid fa-ban"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>    

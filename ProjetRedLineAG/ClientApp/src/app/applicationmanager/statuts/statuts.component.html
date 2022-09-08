@@ -1,0 +1,37 @@
+<p *ngIf="!statuts"><em>Loading...</em></p>
+<div *ngIf="!statuts" class="loader">
+
+</div>
+<div class="rowAddDoc">
+    <button (click)="addStatut()" role="button" class="button-13 nav-item " [routerLinkActive]="['link-active']">
+        <i class="fas fa-layer-plus"></i>
+        <i class="fas fa-plus"></i>
+    </button>
+
+    <div class="inputDoc" *ngIf="add">
+        <input placeholder="Statut" [(ngModel)]="newStatut.titleStatut" />
+        <ul class="wrapper">
+            <li *ngIf="add" (click)="goStatut()" class="icon addDoc arrowSent arrowDoc pointer">
+                <span class="tooltip">Envoyer Document</span>
+                <span class="buttonArrow"><i class="fas fa-share"></i></span>
+            </li>
+        </ul>
+
+    </div>
+</div>
+<div class="blockEntreprises">
+
+    <div class="block documentBlock" *ngFor="let statut of statuts">
+
+        <div *ngIf="statuts">
+
+            <span><strong>id:</strong>{{ statut.statutId }}</span>
+
+            <span> {{ statut.titleStatut }}</span>
+            <i class="fas fa-user-graduate"></i>            
+
+        </div>
+        <button class="pointer" (click)="deleteStatut(statut.statutId)"><i class="fas fa-trash-alt"></i></button>
+
+    </div>
+</div>

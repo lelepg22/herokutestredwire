@@ -1,0 +1,24 @@
+        <p *ngIf="!contacts"><em>Loading...</em></p>
+        <div *ngIf="!contacts" class="loader">
+        </div>
+        <button (click)="navigate('formPerson')" role="button" class="button-13 nav-item buttonAddPerson" [routerLinkActive]="['link-active']">
+            <i class="fas fa-user-plus"></i>   
+        </button>
+        <button (click)="navigate('statuts')" role="button" class="button-13 nav-item buttonStatutsList" [routerLinkActive]="['link-active']">
+            <i class="fas fa-list"></i>  Statuts Liste
+        </button><div class="blockEntreprises">
+            <div class="pointer contactBlock block" (click)="navigateWithId('cardPerson',contact.id)" *ngFor="let contact of contacts">
+                <div class="contactBlockName">
+                    <span><i class="fas fa-user-tie"></i><strong>{{ contact.statutId }}</strong></span>
+                    <span>{{ contact.firstNamePerson }} {{ contact.lastNamePerson }}</span>
+                </div>
+                <span (click)="navigateWithId('cardEntreprise', contact.entreprise.entrepriseId)">
+                    <i class="fa-solid fa-industry"></i>  {{ contact.entreprise.titleEntreprise }}</span>
+
+                <span> <i class="fas fa-envelope"></i> <span>{{ contact.emailPerson }}</span></span>
+                <span><i class="fas fa-phone"></i> <span> {{ contact.telPerson }}</span></span>
+
+            </div>
+        </div>
+       
+      

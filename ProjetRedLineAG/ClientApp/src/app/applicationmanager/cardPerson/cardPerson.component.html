@@ -1,0 +1,30 @@
+﻿        <div class='cardPerson col-xl-9'>
+            <div></div>
+
+            <div *ngIf="person" id="card">
+                <div *ngIf="person[0]">
+
+                    <h2>{{person[0].firstNamePerson}} {{person[0].lastNamePerson}}</h2>
+                </div>
+                <p *ngIf="entreprise"><strong *ngIf="statut"><i class="fas fa-user-tie"></i>{{statut[0].titleStatut}}</strong> <i class="fa-solid fa-industry"></i> <em><span *ngIf="entreprise">{{entreprise[0].titleEntreprise}}</span><span *ngIf="!entreprise[0].titleEntreprise">{{entreprises[0].entreprise.titleEntreprise}}</span></em></p>
+                <p *ngIf="!edit">{{person[0].commentsPerson}}</p>
+                <div class="editPerson">
+                    <textarea *ngIf="edit" [(ngModel)]="person[0].commentsPerson"></textarea>
+
+                    <span *ngIf="edit"><i class="fas fa-envelope-square"></i>: <input [(ngModel)]="person[0].emailPerson" /></span>
+                    <span *ngIf="edit"><i class="fas fa-mobile-android-alt"></i>:<input [(ngModel)]="person[0].telPerson" /> </span>
+                </div>
+                <div class="telEmailPerson">
+                    <span *ngIf="!edit"><i class="fas fa-mobile-android-alt"></i>: {{person[0].telPerson}}</span>
+                    <span *ngIf="!edit"><i class="fas fa-envelope-square"></i>: {{person[0].emailPerson}}</span>
+                </div>
+
+
+                <div class="buttonsCardPerson">
+                    <button class="pointer btn btn-warning" *ngIf="!edit" (click)="editPerson()">Edit</button>
+                    <button class="pointer btn btn-success" *ngIf="edit" (click)="goEditPerson()"><i class="fas fa-paper-plane"></i></button>
+                    <button class="pointer btn btn-danger" (click)="deletePerson()"><i class="fas fa-trash-alt"></i></button>
+                </div>
+
+            </div>
+        </div>

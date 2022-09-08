@@ -1,0 +1,59 @@
+<div>
+    <!-- <h1> Candidatures </h1>-->
+
+    <div id="handler">
+        <button (click)="goForm()" class="button-30 buttonCandidature nav-item" [routerLinkActive]="['link-active']">
+            Candidature<i class="fas fa-calendar-plus"></i>
+        </button>
+
+        <div class="topResponsive btn-group">
+            <button type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                {{type}}
+            </button>
+            <ul class="dropdown-menu">
+                <!-- <li (click)="filterDate()">Date</li> -->
+                <li (click)="filterTitle()">Titre Candidature</li>
+                <li (click)="filterEntreprise()"> Entreprise</li>
+                <li (click)="filterStatus()">Status</li>
+            </ul>
+        </div>
+        <div class="topResponsive" *ngIf="search">
+            <input type="email" class="form-control" id="search-text" aria-describedby="search-text"
+                   [(ngModel)]="searchText" placeholder="Enter text to search"
+                   autofocus>
+        </div>
+        <!-- <button class="button-30 buttonRechercher" role="button">RECHERCHER </button> -->
+        <br />
+
+        <div class="searchResult" *ngIf="searchTitleApplication">
+            <ul *ngIf="searchText">
+                <li (click)="navigateWithId('cardApplication', c.applicationId)" class="pointer list-group-item" *ngFor="let c of applications | appFilter: searchText: typeId">
+
+                    <p>{{c.titleApplication}} - <span class="pointer" (click)="navigateWithId('cardEntreprise', c.entreprise.entrepriseId )"> {{c.entreprise.titleEntreprise}} </span>  - {{c.statusApplication}} </p>
+
+                </li>
+            </ul>
+        </div>
+
+        <div class="searchResult" *ngIf="searchEntrepriseApplication">
+            <ul *ngIf="searchText">
+                <li class="list-group-item pointer" *ngFor="let c of applications | appFilter: searchText : typeId">
+
+                    <p (click)="navigateWithId('cardApplication', c.applicationId)"><span (click)="navigateWithId('cardEntreprise', c.entreprise.entrepriseId )">{{c.entreprise.titleEntreprise}} </span> - {{c.titleApplication}} - {{c.statusApplication}} </p>
+
+                </li>
+            </ul>
+        </div>
+
+        <div class="searchResult" *ngIf="searchStatusApplication">
+            <ul *ngIf="searchText">
+                <li class="list-group-item pointer" *ngFor="let c of applications | appFilter: searchText : typeId">
+
+                    <p (click)="navigateWithId('cardApplication', c.applicationId)">{{c.statusApplication}} -  {{c.titleApplication}} -  <span class="pointer" (click)="navigateWithId('cardEntreprise', c.entreprise.entrepriseId )"> {{c.entreprise.titleEntreprise}} </span></p>
+
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</div>
