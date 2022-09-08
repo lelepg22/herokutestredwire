@@ -23,8 +23,8 @@ import { ApplicationsComponent } from './applicationmanager/applications/applica
 
 const routes: Routes = [
 
-    { path: '', component: HomeComponent, pathMatch: 'full', canActivate: [AuthorizeGuard] } ,    
-    
+    { path: '', component: HomeComponent, pathMatch: 'full'} ,    
+    //, canActivate: [AuthorizeGuard] 
     { path: 'applications', component: ApplicationsComponent },
     { path: 'entreprise', component: EntreprisesComponent },
     { path: 'document', component: DocumentsComponent },

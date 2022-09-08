@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "kblJteoSMnhryD6tjcF6j9H93EFnIEZ2FaV62/9+Dr3mFgcZJ179TqIf+/1fd7fqhPWibt7eFkKbwE7kN7vu7A==",
+  "dgSpecHash": "OQfz1LkhMt+o4Y/Y390mt2LNMMuSjzYE/b1XmFZtCPKf7JJikkNdsBSUQApZH/ePkWVMPVrmELVbLGvJ2iQljQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Cacara\\Desktop\\testingheroku\\ProjetRedLineAG\\ProjetRedLineAG.csproj",
   "expectedPackageFiles": [
@@ -74,7 +74,6 @@
     "C:\\Users\\Cacara\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
     "C:\\Users\\Cacara\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Cacara\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
-    "C:\\Users\\Cacara\\.nuget\\packages\\microsoft.typescript.msbuild\\4.8.2\\microsoft.typescript.msbuild.4.8.2.nupkg.sha512",
     "C:\\Users\\Cacara\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\3.1.5\\microsoft.visualstudio.web.codegeneration.3.1.5.nupkg.sha512",
     "C:\\Users\\Cacara\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.contracts\\3.1.5\\microsoft.visualstudio.web.codegeneration.contracts.3.1.5.nupkg.sha512",
     "C:\\Users\\Cacara\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.core\\3.1.5\\microsoft.visualstudio.web.codegeneration.core.3.1.5.nupkg.sha512",
